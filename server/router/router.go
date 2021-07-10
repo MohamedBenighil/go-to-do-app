@@ -1,7 +1,7 @@
 package router
 
 import (
-	"../middleware"
+	"go-server/middleware"
 	"github.com/gorilla/mux"
 )
 
