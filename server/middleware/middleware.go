@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"../models"
+	"go-server/models"
 	"github.com/gorilla/mux"
 
 	"go.mongodb.org/mongo-driver/bson"
