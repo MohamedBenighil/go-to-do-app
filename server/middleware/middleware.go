@@ -17,7 +17,7 @@ import (
 )
 
 // DB connection string
-// const connectionString = "mongodb://localhost:27017"
+// const connectionString = "mongodb://dbuser:dpassword@db:27017/dbname"
 const connectionString = "Connection String"
 
 // Database Name
