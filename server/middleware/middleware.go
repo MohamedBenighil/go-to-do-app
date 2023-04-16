@@ -18,10 +18,10 @@ import (
 
 // DB connection string
 // const connectionString = "mongodb://dbuser:dpassword@db:27017/dbname"
-const connectionString = "Connection String"
+var connectionString = os.Getenv("DB_CONNECTION")
 
 // Database Name
-const dbName = "test"
+var dbName = os.Getenv("DB_NAME")
 
 // Collection name
 const collName = "todolist"
